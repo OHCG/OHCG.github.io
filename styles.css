@@ -1,0 +1,58 @@
+header nav {
+	clear: both;
+}
+header h1 {
+	font-size: 36px;
+	color: #FFF;
+}
+.carousel-caption {
+	color: #FFF;
+	background-color: #333;
+	padding-right: 10px;
+	padding-left: 10px;
+	opacity: 0.75;
+}
+
+.carousel-inner, #building-thumbnail {
+	box-shadow: 5px 5px;
+	color: #666;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+
+@font-face {
+  font-family: 'clarendonbold';
+  src: url('/fonts/clarendon_bold.eot');
+  src: url('/fonts/clarendon_bold.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/clarendon_bold.woff') format('woff'),
+       url('/fonts/clarendon_bold.ttf') format('truetype'),
+       url('/fonts/clarendon_bold.svg#clarendonbold') format('svg');
+}
+
+body{
+	background-image: linear-gradient(to right, #134D00, #256E0E, #134D00);
+	margin:50px;
+	font-family:Libre Baskerville, serif;
+}
+
+h1, footer {
+	font-family: clarendonbold;
+	margin-top: 10px;
+}
+
+.container{
+	color:#FFF
+}
+
+.container footer{
+	text-align: center;
+	vertical-align: middle;
+	border: medium ridge #FFF;
+	margin-top: 0px;
+	margin-right: 450px;
+	margin-bottom: 0px;
+	margin-left: 450px;
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+
