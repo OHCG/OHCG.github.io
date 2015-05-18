@@ -13,7 +13,7 @@ body{
 	background-color:#256E0E;
 	background-image: linear-gradient(to right, #071D00, #256E0E, #071D00);
 	margin:50px;
-	font-family: arial;
+	font-family:'Open Sans', sans-serif;
 	font-size:16px;
 }
 
@@ -24,6 +24,7 @@ img{
 
 .title{
 	text-align:center;
+	font-family: 'Cinzel Decorative', cursive;	
 }
 
 .title h1 {
@@ -35,7 +36,7 @@ img{
 }
 
 footer {
-	font-family: clarendonbold;
+	font-family: 'Cinzel Decorative';
 	margin-top: 10px;
 }
 
