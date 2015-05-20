@@ -61,7 +61,6 @@ footer {
 .media-middle{
 	margin-right: 250px;
 	margin-left: 250px;
-	box-shadow: 8px 8px #FF9;
 	margin-bottom: 50px; 
 	margin-top: 45px;
 }
@@ -81,9 +80,7 @@ footer {
 	padding-left: 10px;
 	opacity: 0.75;
 }
-.carousel-inner, #building-thumbnail {
-	box-shadow: 5px 5px;
-	color: #FF9;
+
 }
 .carousel-indicators{
 	height: 20px;
@@ -147,7 +144,7 @@ div.rollovertext{
   cursor: pointer;
   diplay: table-cell;
   text-align: left;
-    vertical-align: middle;
+  vertical-align: middle;
   opacity:0;
 }
 
