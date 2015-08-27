@@ -159,3 +159,13 @@ div.container2{
   margin-top:55px;
   margin-bottom:60px;
 }
+
+#mission{
+  margin-top: 50px;
+  text-align:center;
+  font-size: 20px;
+}
+
+#mission span{
+  padding: 20px;
+}
