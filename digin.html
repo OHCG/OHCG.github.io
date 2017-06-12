@@ -1,118 +1,99 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Dig In</title>
-<style type="text/css">
-.waiver_form{
-  font-size: 27px;
-  margin-right: 150px; 
-  margin-left: 150px; 
-  margin-top: 45px; 
-  margin-bottom: 45px;
-</style>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
-<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Home</title>
 
-  ga('create', 'UA-66856214-1', 'auto');
-    ga('send', 'pageview');
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link href="phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:767px)" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
-<link href="styles.css" rel="stylesheet" type="text/css" />
-<!-- Bootstrap XS -->
-<link href="phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:767px)" />
-<!-- Bootstrap XS -->
-<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative|Open+Sans' rel='stylesheet' type='text/css'></head>
+      ga('create', 'UA-66856214-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+  </head>
 
-</head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/beez.png" class="logo" style="height: 80px; width: 80px;"/>
+        <div class="title">
+          <h1>Oakland Hills</h1>
+          <h2>Community Garden</h2>
+        </div>
+        <!-- <a class="donate-link" style="float: right; margin-right:30px; margin-top:10px;" href="">Donate</a> -->
 
-<body>
-<div class="container">
-  <header>
+        <nav class="navbar navbar-default" role="navigation" style="margin: 50px 20% 0 20%">
+          <div class="navbar-header"> 
+            <!--  
+            This button will be shown if the screen size is too small, providing a better user interface on a mobile device  
+            Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div 
+            element below that contains the navigation links
+            -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar"> 
+              <span class="sr-only">Toggle navigation</span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
 
-<!-- <img src="images/logoimg_NOBG.png" class="pull-left hidden-xs"/>
- -->    <div class="title">
-      <h1>Oakland Hills</h1>
-      <h2>Community Garden</h2>
-      <hr/>
-      <p>Grow Food * Feed People * Build Community</p>
-    </div>
-    
-<a class="donate-link" style="float: right; margin-right:30px; margin-top:10px;" href="">Donate</a>
-      
-    <nav class="navbar navbar-default" role="navigation" style="margin-top: 50px;">
-      <div class="navbar-header"> 
-        <!--  
-        This button will be shown if the screen size is too small, providing a better user interface on a mobile device  
-        Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div 
-        element below that contains the navigation links
-      -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="navbar-header"> 
-        <!--  
-        This button will be shown if the screen size is too small, providing a better user interface on a mobile device  
-        Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div 
-        element below that contains the navigation links
-      -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span></button> 
-  <div id="banner-core">
-        <a class="navbar-brand" href="index.html">Home</a>
+          <div class="navbar-header"> 
+            <!--  
+            This button will be shown if the screen size is too small, providing a better user interface on a mobile device  
+            Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div 
+            element below that contains the navigation links
+            -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span></button> 
+
+            <div id="banner-core">
+              <a class="navbar-brand" href="index.html">Home</a>
               <a class="navbar-brand" href="ourroots.html">Our Roots</a>
-              <a class="navbar-brand" href="events.html">Calendar</a>
-              <a class="navbar-brand" href="digin.html">Dig In</a>
+              <a class="navbar-brand" href="events.html">Calendar</a></b>
+              <b><a class="navbar-brand" href="digin.html">Dig In</a></b>
               <a class="navbar-brand" href="gardengallery.html">Garden Gallery</a>
               <a class="navbar-brand" href="contactus.html">Contact Us</a>
-             
+            </div>
+          </div>
+
+        </nav>
+    </header>
+
+    <div id="main_content">
+
+      <h2 class="title" style="font-family: 'Amatic SC', cursive; font-size:45px;">
+        Come Join Us!
+      </h2>
+
+      <div class="waiver_form" style="text-align: center; padding: 20px;">
+        <object type="image" width="100%" height="100%">
+          <p><a href="images/Oakland Hills Community Garden.pdf">VolunteerWaiver Form</a> - follow this link to the PDF.</p>
+        </object>
+
+        <object  type="image" width="100%" height="100%">
+        <p><a href="images/Oakland Hills Community Garden - Minor.pdf">Volunteer Minor Waiver Form</a> - follow this link to the PDF.</p>
+        </object>
       </div>
-      <!-- /.navbar-collapse --> 
-    </nav>
-  </header>
-  <div id="main_content">
-  <h2 class="PageTitle" style="font-family: 'Cinzel Decorative', cursive;">
-  Dig In<!-- InstanceEndEditable -->
-  </h2>
-    <!-- InstanceBeginEditable name="PageContent" -->
-  <h2 style="text-align: center; font-style: italic; margin-right: 50px; margin-left: 50px; margin-top: 45px; margin-bottom: 15px;font-family: 'Cinzel Decorative', cursive";>Come Join Us!</h2>
-    
-    <div class="waiver_form">
-    <object  type="image" width="100%" height="100%">
-  <p>Volunteer Minor Waiver Form - follow this link <a href="images/Oakland Hills Community Garden - Minor.pdf">to the PDF!</a></p>
-    </object>
-    
-<object type="image" width="100%" height="100%">
-  <p>Volunteer Adult Waiver Form - follow this link <a href="images/Oakland Hills Community Garden.pdf">to the PDF!</a></p>
-</object>
-</div>
 
-<img style="width:30%; height:30%; margin-right:350px; margin-left: 400px;" src="images/20140906_nicolettesGarden_0045.jpg" />
-    
+      <img style="width:30%; height:30%; margin-right:350px; margin-left: 400px; padding-bottom:30px;" src="images/20140906_nicolettesGarden_0045.jpg" />
 
-<!-- InstanceEndEditable --></div><br/>
-    
-     <footer><b>Oakland Hills Community Garden</b>
-     <br/>
-    3265 Stoney Creek Road 
-    <br/>
-    Oakland, MI 48326
+    </div>
+
+     <footer>
+       <p><b><i>Come visit!</i></b></p>
+       <p>Oakland Hills Community Garden</p>
+       <p>3265 Stoney Creek Road</p>
+       <p>Oakland, MI 48326</p>
     </footer>
-   
-    <p style="float:right; font-size:12px; margin-top:45px;">Copyright &#169; Oakland Hills Community Garden</p>
-  </div>
-  
-  
-
-</body>
-<!-- InstanceEnd --></html>
+    <p style="text-align: center; font-size:12px; margin-top:45px;">Copyright &#169; Oakland Hills Community Garden</p>
+  </body>
+</html>
