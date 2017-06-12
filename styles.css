@@ -1,35 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
 
 @font-face {
-  font-family: 'clarendonbold';
-  src: url('/fonts/clarendon_bold.eot');
-  src: url('/fonts/clarendon_bold.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/clarendon_bold.woff') format('woff'),
-       url('/fonts/clarendon_bold.ttf') format('truetype'),
-       url('/fonts/clarendon_bold.svg#clarendonbold') format('svg');
+  font-family: 'Amatic SC, cursive';
+}
+
+.event-banner {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.logo {
+  height: 150px; 
+  width: 150px;
+  display: block;
+  margin: 0 auto;
 }
 
 body{
-	background-color:#4A40BF;
-/*	background-image: linear-gradient(to right, #071D00, #256E0E, #071D00);
-*/	margin:50px;
+  background-image: linear-gradient(to right, #817ad4, #9a95d6, #817ad4);
+	margin:50px;
 	font-family:'Open Sans', sans-serif;
 	font-size:16px;
 }
 
-img{
-	height:200px;
-	width:250px;
-}
-
-
 .title{
 	text-align:center;
-	font-family: 'Cinzel Decorative', cursive;	
+  font-family: 'Amatic SC', cursive;
 }
 
 .title h1 {
-	font-size:85px;
+	font-size:80px;
 }
 
 .title h2{
@@ -91,12 +91,6 @@ a:hover{
 	color: black;
 }
 
-
-*
-image{
-  width: 250px;
-  height: 175px;
-  }
 
 div.article{
   width: 250px;
@@ -161,9 +155,10 @@ div.container2{
 }
 
 #mission{
-  margin-top: 50px;
+  margin: 50px;
   text-align:center;
-  font-size: 20px;
+  font-size: 50px;
+  font-weight:bold;
 }
 
 #mission span{
