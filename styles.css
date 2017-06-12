@@ -4,6 +4,10 @@
   font-family: 'Amatic SC, cursive';
 }
 
+a {
+  font-family: 'Amatic SC', cursive;
+}
+
 .event-banner {
   text-align: center;
   padding-bottom: 40px;
@@ -17,7 +21,7 @@
 }
 
 body{
-  background-image: linear-gradient(to right, #817ad4, #9a95d6, #817ad4);
+  background-image: linear-gradient(to right, #817ad4, #b1aed6, #817ad4);
 	margin:50px;
 	font-family:'Open Sans', sans-serif;
 	font-size:16px;
