@@ -40,6 +40,11 @@ body{
 	font-size: 40px;
 }
 
+.title h3{
+	font-size: 10px;
+}
+
+
 footer {
 	font-family: 'Cinzel Decorative';
 	margin-top: 10px;
@@ -156,7 +161,6 @@ div.container2{
 #mission{
   margin: 20px;
   text-align:center;
-  font-size: 50px;
   font-weight:bold;
 }
 
