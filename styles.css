@@ -14,8 +14,8 @@ a {
 }
 
 .logo {
-  height: 150px; 
-  width: 150px;
+  height: 150px !important; 
+  width: 150px !important;
   display: block;
   margin: 0 auto;
 }
@@ -86,11 +86,6 @@ footer {
 	opacity: 0.75;
 }
 
-}
-.carousel-indicators{
-	height: 20px;
-}
-
 a:hover{
 	color: black;
 }
@@ -100,11 +95,11 @@ div.article{
   width: 250px;
   height: 200px;
   background-color: black;
- float:left;
- margin: 5px;
+  float:left;
+  margin: 5px;
   border: 1px solid black;
   position: relative
-  }
+}
 
 h2.category{
   top: -15px;
