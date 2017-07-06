@@ -8,6 +8,10 @@ a {
   font-family: 'Amatic SC', cursive;
 }
 
+a:hover {
+  color: white !important;
+}
+
 .event-banner {
   text-align: center;
   padding-bottom: 40px;
